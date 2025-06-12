@@ -1,40 +1,239 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magnakod - Dijital Çözümler</title>
-    <style>
-		body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-img {
-    width: 50%; /* Resmi %50 oranında küçültmek için */
-    max-width: 100%;
-    height: auto; /* Yüksekliği koruyarak genişliği ayarlar */
-    object-fit: contain;
-}
-
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MagnaKod | Dijital Ajans & Web Çözümleri</title>
+  <meta name="description" content="MagnaKod, İstanbul merkezli dijital ajans. Web tasarım, yazılım, dijital pazarlama ve danışmanlık hizmetleriyle markanızı dijital dünyada büyütün.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta property="og:title" content="MagnaKod | Dijital Ajans & Web Çözümleri">
+  <meta property="og:description" content="MagnaKod, İstanbul merkezli dijital ajans. Web tasarım, yazılım, dijital pazarlama ve danışmanlık hizmetleriyle markanızı dijital dünyada büyütün.">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://magnakod.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MagnaKod | Dijital Ajans & Web Çözümleri">
+  <meta name="twitter:description" content="MagnaKod, İstanbul merkezli dijital ajans. Web tasarım, yazılım, dijital pazarlama ve danışmanlık hizmetleriyle markanızı dijital dünyada büyütün.">
+  <meta name="twitter:image" content="logo.png">
+  <link rel="canonical" href="https://magnakod.com/">
+  <meta name="robots" content="index, follow">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MagnaKod",
+    "url": "https://magnakod.com/",
+    "logo": "https://magnakod.com/logo.png",
+    "description": "MagnaKod, İstanbul merkezli dijital ajans. Web tasarım, yazılım, dijital pazarlama ve danışmanlık hizmetleri.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "İstanbul",
+      "addressCountry": "TR"
+    }
+  }
+  </script>
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="stylesheet" href="style.css">
+  <!-- Remix Icon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <style>html{scroll-behavior:smooth;}</style>
 </head>
 <body>
-    <div class="container">
-        <img src="logo.png" style="width:50rem;" alt="Magnakod">
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <a href="#hero"><img src="logo.png" alt="Magnakod Logo"></a>
+      </div>
+      <nav class="nav-right">
+        <ul class="nav-list">
+          <li><a href="#hero">Ana Sayfa</a></li>
+          <li><a href="#services">Hizmetler</a></li>
+          <li><a href="#projects">Projeler</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Markanızı<br>Büyütüyoruz</h1>
+      <p>Dijital dünyada markanızı büyütmek için profesyonel çözümler sunuyoruz.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn primary">Projeler <i class="ri-arrow-right-line"></i></a>
+        <a href="#" class="btn secondary">Teklif Al</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="mk-card">
+        <span>MK</span>
+      </div>
+    </div>
+  </section>
+  <!-- Partner Section -->
+  <section class="partners">
+    <div class="partners-header">
+      <h2><span>Teknoloji</span> <span class="red">Ortaklarımız</span></h2>
+      <p>Dünya'nın önde gelen teknoloji şirketleriyle çalışıyoruz.</p>
+    </div>
+    <div class="partners-logos">
+      <div class="partner-logo"><i class="ri-windows-fill"></i></div>
+      <div class="partner-logo"><i class="ri-slack-fill"></i></div>
+      <div class="partner-logo"><i class="ri-trello-fill"></i></div>
+      <div class="partner-logo"><i class="ri-google-fill"></i></div>
+      <div class="partner-logo"><i class="ri-github-fill"></i></div>
+      <div class="partner-logo"><i class="ri-amazon-fill"></i></div>
+    </div>
+  </section>
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="services-header">
+      <h2><span>Profesyonel</span> <span class="red">Hizmetlerimiz</span></h2>
+      <p>7 yıllık deneyimimizle dijital dünyada profesyonel çözümler sunuyoruz.</p>
+    </div>
+    <div class="services-cards">
+      <div class="service-card">
+        <div class="service-icon"><i class="ri-palette-fill"></i></div>
+        <h3>Web Tasarım</h3>
+        <p>Modern ve kullanıcı dostu web siteleri tasarlıyoruz.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="ri-code-s-slash-line"></i></div>
+        <h3>Yazılım Geliştirme</h3>
+        <p>Özel yazılım çözümleri ve web uygulamaları geliştiriyoruz.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="ri-rocket-2-fill"></i></div>
+        <h3>Dijital Pazarlama</h3>
+        <p>Markanızı dijital dünyada öne çıkaracak stratejiler sunuyoruz.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="ri-search-eye-line"></i></div>
+        <h3>SEO Optimizasyonu</h3>
+        <p>Arama motorlarında üst sıralarda yer almanızı sağlıyoruz.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="ri-smartphone-line"></i></div>
+        <h3>Mobil Uygulama</h3>
+        <p>iOS ve Android için native mobil uygulamalar geliştiriyoruz.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="ri-user-3-line"></i></div>
+        <h3>Danışmanlık</h3>
+        <p>Dijital dönüşüm sürecinizde profesyonel danışmanlık sunuyoruz.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Stats & Mission/Vision Section -->
+  <section class="stats-mission" id="about">
+    <div class="stats-header">
+      <h2>Dijital dünyada <span class="red">fark yaratıyoruz</span></h2>
+      <p>Uzman ekibimizle markaların dijital dönüşümüne öncülük ediyoruz.</p>
+    </div>
+    <div class="stats-cards">
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ri-user-3-line"></i></div>
+        <div class="stat-value">50+</div>
+        <div class="stat-label">Mutlu Müşteri</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ri-focus-2-line"></i></div>
+        <div class="stat-value">100+</div>
+        <div class="stat-label">Tamamlanan Proje</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ri-award-line"></i></div>
+        <div class="stat-value">7+</div>
+        <div class="stat-label">Yıllık Deneyim</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><i class="ri-flashlight-line"></i></div>
+        <div class="stat-value">24/7</div>
+        <div class="stat-label">Destek Hizmeti</div>
+      </div>
+    </div>
+    <div class="mission-vision-row">
+      <div class="mission-box">
+        <h3>Misyonumuz</h3>
+        <p>İşletmelerin dijital dönüşümünde güvenilir partner olmak ve teknolojiyi yaratıcılıkla birleştirmek.</p>
+      </div>
+      <div class="vision-box">
+        <h3>Vizyonumuz</h3>
+        <p>Dijital çözümler alanında öncü ajans olarak müşteri başarısını önceleyerek sürekli gelişim sağlamak.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Projects/Brands Section -->
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <h2>Birlikte Çalıştığımız <span class="red">Markalar</span></h2>
+      <p>Başarıya birlikte ulaştığımız seçkin markalarımız.</p>
+    </div>
+    <div class="projects-cards">
+      <div class="project-card">
+        <span class="project-tag">Mobil Uygulama</span>
+        <h3>Visionside</h3>
+        <p>iOS ve Android için yenilikçi mobil uygulama.</p>
+      </div>
+      <div class="project-card">
+        <span class="project-tag">CRM</span>
+        <h3>Yuksel SMM</h3>
+        <p>Gelişmiş CRM entegrasyonu ve yönetimi.</p>
+      </div>
+      <div class="project-card">
+        <span class="project-tag">Güvenlik</span>
+        <h3>XVPN</h3>
+        <p>Güvenli VPN ve siber güvenlik çözümleri.</p>
+      </div>
+      <div class="project-card">
+        <span class="project-tag">Yapay Zeka</span>
+        <h3>Formation Ai</h3>
+        <p>Akıllı eğitim ve makine öğrenimi platformu.</p>
+      </div>
+      <div class="project-card">
+        <span class="project-tag">SEO</span>
+        <h3>212 VC</h3>
+        <p>SEO ve dijital pazarlama stratejileri.</p>
+      </div>
+      <div class="project-card">
+        <span class="project-tag">Danışmanlık</span>
+        <h3>Sitarastelle</h3>
+        <p>Dijital dönüşüm ve strateji danışmanlığı.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="footer-modern" id="contact">
+    <div class="footer-modern-main">
+      <div class="footer-modern-left">
+        <img src="logo.png" alt="Magnakod Logo" class="footer-modern-logo">
+        <div class="footer-modern-desc">
+          MagnaKod, İstanbul merkezli dijital ajans. Türkiye ve globalde hizmet vermektedir.
+        </div>
+      </div>
+      <div class="footer-modern-right">
+        <div class="footer-modern-contact-title">İletişim</div>
+        <div class="footer-modern-contact-email">info@magnakod.com</div>
+        <div class="footer-modern-social">
+          <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+          <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+          <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+          <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-modern-bottom">
+      <span>© 2025 MagnaKod. Tüm hakları saklıdır.</span>
+      <div class="footer-modern-links">
+        <a href="#">Gizlilik Politikası</a>
+        <a href="#">Hizmet Şartları</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
-</html>
+</html> 
